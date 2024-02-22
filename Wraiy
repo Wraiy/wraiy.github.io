@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO</title>
+    <style>
+        body {
+            font-family: 'Roboto Mono', monospace;
+            margin: 0;
+            padding: 0;
+            background-color: #990a00;
+        }
+
+        header {
+            background-color: #6b0700;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 2em auto;
+            padding: 20px;
+            background-color: #6b0700;
+            color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2, h3 {
+            color: #e50f00;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        footer {
+            background-color: #6b0700;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap">
+</head>
+<body>
+
+<header>
+    <h1>MAXIM KASHIRIN</h1>
+    <p><strong>Student / Player / Dreamer</strong></p>
+</header>
+
+<section>
+    <h2>INTRODUCTION</h2>
+    <p>Welcome to my corner of the web! As an aspiring web developer, I created a website to share my interests.</p>
+    <h3>INTERESTS</h3>
+    <ul>
+        <li>Favorite GAMES: <strong>Counter-Strike 2, Cyberpunk 2077, Forza Horizon 4/5</strong></li>
+        <li>Favorite MUSIC ARTISTS: <strong>The Weeknd, 2Scratch, JVKE</strong></li>
+        <li>Favorite CARS: <strong>BMW M3 E92, Nissan 350Z, BMW M5 F11 Touring</strong></li>
+    </ul>
+</section>
+
+<section>
+    <h2>CONTACT ME</h2>
+    <p>You can reach me at <a href="mailto:maxim.kashirin78@gmail.com">maxim.kashirin78@gmail.com</a>.</p>
+</section>
+
+<footer>
+    &copy; 2024 - MY PORTFOLIO by Maxim Kashirin
+</footer>
+
+</body>
+</html>
